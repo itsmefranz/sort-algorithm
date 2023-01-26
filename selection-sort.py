@@ -6,5 +6,9 @@ def selection_sort(array):
                 min = j
 
         array[i], array[min] = array[min], array[i]
+        print(array)
 
 array = [21, 3, 56, 9, 6, 41, 22, 18, 23, 71]
+
+selection_sort(array)
+print("Sorted array:", array)
