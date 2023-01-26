@@ -1,8 +1,10 @@
-def selection_sort(arr):
-    for i in range(len(arr)):
-        min_idx = i
-        for j in range(i+1, len(arr)):
-            if arr[min_idx] > arr[j]:
-                min_idx = j
-                
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+def selection_sort(array):
+    for i in range(len(array)):
+        min = i
+        for j in range(i+1, len(array)):
+            if array[min] > array[j]:
+                min = j
+
+        array[i], array[min] = array[min], array[i]
+
+array = [21, 3, 56, 9, 6, 41, 22, 18, 23, 71]
