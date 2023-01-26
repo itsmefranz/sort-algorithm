@@ -6,4 +6,4 @@ def bubble_sort(array):
             if array[j] > array[j+1] :
                 array[j], array[j+1] = array[j+1], array[j]
 
-array = [11, 64, 34, 25, 12, 6, 22, 36, 11, 90]
+array = [11, 64, 34, 25, 12, 6, 22, 36, 41, 90]
