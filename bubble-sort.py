@@ -7,7 +7,7 @@ def bubble_sort(array):
                 array[j], array[j+1] = array[j+1], array[j]
                 print(array)
 
-array = [11, 64, 90, 34, 25, 12, 6, 22, 36, 41]
+array = [11, 64, 6, 34, 25]
 
 bubble_sort(array)
 
