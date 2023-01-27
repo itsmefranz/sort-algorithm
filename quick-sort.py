@@ -15,8 +15,7 @@ def quick_sort(array, low, high):
         quick_sort(array, low, pi-1)
         quick_sort(array, pi+1, high)
 
-
-array = [10, 7, 8, 9, 1, 5]
+array = [21, 27, 6, 9, 11, 5]
 n = len(array)
 
 quick_sort(array, 0, n-1)
