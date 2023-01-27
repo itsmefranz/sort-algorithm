@@ -8,7 +8,7 @@ def selection_sort(array):
         array[i], array[min] = array[min], array[i]
         print(array)
 
-array = [21, 3, 56, 9, 6, 41, 22, 18, 23, 71]
+array = [21, 13, 46, 9, 6]
 
 selection_sort(array)
 print("Sorted array:", array)
