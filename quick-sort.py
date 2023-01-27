@@ -1,12 +1,12 @@
-def partition(arr, low, high):
+def partition(array, low, high):
     i = (low-1)
-    pivot = arr[high]
+    pivot = array[high]
 
     for j in range(low, high):
-        if arr[j] <= pivot:
+        if array[j] <= pivot:
             i = i+1
-            arr[i], arr[j] = arr[j], arr[i]
-    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+            array[i], array[j] = array[j], array[i]
+    array[i + 1], array[high] = array[high], array[i + 1]
     return (i + 1)
 
 def quick_sort(array, low, high):
