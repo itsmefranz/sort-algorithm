@@ -1,3 +1,5 @@
+def partition(arr, low, high):
+
 def quick_sort(array, low, high):
     if low < high:
         pi = partition(array, low, high)
