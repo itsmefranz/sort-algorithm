@@ -7,7 +7,8 @@ def insertion_sort(array):
                 array[j + 1] = array[j]
                 j -= 1
         array[j + 1] = key
+        print(array)
 
 array = [12, 34, 6, 21, 10, 39, 41, 13, 2, 29]
 insertion_sort(array)
-print(array)
+print("Sorted array: ", array)
